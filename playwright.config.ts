@@ -32,7 +32,8 @@ export default defineConfig({
     trace: 'on-first-retry',
 
     /* Тест бүрийн бичлэгийг хадгална — репозиторид хавсаргах шаардлагатай (Алхам 6) */
-    video: 'retain-on-failure',
+    // video: 'retain-on-failure',
+    video: 'on',
   },
 
   /* Configure projects for major browsers */
